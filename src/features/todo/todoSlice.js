@@ -1,5 +1,6 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
-import todoReducer from '../features/todo/todoSlice'
+
+
 const initialState = {
     todos: [{id: 1, text: "hello"}]
 }
